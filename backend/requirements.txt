@@ -1,0 +1,22 @@
+# BioTrack Backend Dependencies
+# FastAPI and server
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+pyodbc==5.0.1
+
+# Environment configuration
+python-dotenv==1.0.0
+
+# Computer Vision and AI
+opencv-python==4.8.1.78
+facenet-pytorch==2.5.3
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilities
+numpy>=1.24.0
+Pillow>=10.0.0
