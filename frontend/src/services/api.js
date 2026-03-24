@@ -3,7 +3,7 @@ import axios from "axios";
 const getBaseURL = () => {
   const { hostname } = window.location;
   // If accessing via IP or other hostname, use that for the API too
-  return `http://${hostname}:8000/api`;
+  const API_BASE_URL = "http://localhost:8000/api";
 };
 
 const api = axios.create({
