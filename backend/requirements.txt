@@ -1,17 +1,8 @@
-# BioTrack Backend Dependencies
-
-# FastAPI and server
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
-
-# Database
-sqlalchemy==2.0.23
-pymysql
-
-# Environment configuration
+sqlalchemy>=2.0.36,<2.1
 python-dotenv==1.0.0
-
-# Utilities
+pymysql
 numpy>=1.24.0
 Pillow>=10.0.0
